@@ -2,4 +2,4 @@
 
 ## Projects
 
-![test](assets/test.png)
+![test](assets/TEST.png)
