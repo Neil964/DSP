@@ -1,1 +1,3 @@
-# DSP
+# Data Science Project
+
+## Projects
