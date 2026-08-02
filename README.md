@@ -16,9 +16,9 @@ The dataset has been extracted from Kaggle: https://www.kaggle.com/datasets/arya
 
 The dataset has 2000 rows of data which comprises of various aspects in a working day that may affect an individual’s chance of burnout.  No personal identifiable information is held in the data.
 
-Nothing states that this is manufactured data and therefore does need to be checked and cleansed appropriately, checking for missing data and removing any duplications, null values etc.
+Nothing states that this is manufactured data.  The data does need to be checked and cleansed appropriately, checking for missing data and removing any duplications, null values etc.
 
-The data has been extracted in Excel format and Python will be the main application to cleanse and apply relevant statistical analysis and visualisations.  Python will also be used to identify logistic regression.
+The data has been extracted in Excel format.  Python will be the main application to cleanse and apply relevant statistical analysis and visualisations and to apply linear regression.
 
 
 
