@@ -20,6 +20,10 @@ Nothing states that this is manufactured data.  The data does need to be checked
 
 The data has been extracted in Excel format.  Python will be the main application to cleanse and apply relevant statistical analysis and visualisations and to apply linear regression.
 
+### Data
+
+![DataType](assets/NO_NULL_DATA.png)
+
 
 
 
