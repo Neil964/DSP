@@ -22,7 +22,30 @@ The data has been extracted in Excel format.  Python will be the main applicatio
 
 ### Data
 
-![nonulldata](assets/NO NULL DATA.png)
+![test](assets/NO%20NULL%20DATA.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
