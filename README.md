@@ -8,7 +8,7 @@ Since Covid more people have been working from home.  This project has been take
 
 Every person is different and can handle stress in different ways and have different lifestyles. This project is to try and highlight if there are any significant factors that affects everyone in the same way therefore creating a risk of ‘burnout’.
 
-The data was initially split into Low, Medium and High categories for burn out, and this has now been amended to show only Low and have combined both Medium/High into one category to specifically check for anything which may result in anything in a burnout score which is not Low.  Additionally, by doing this, the data has been more evenly spread for machine learning use.
+The data was initially split into Low, Medium and High categories for burn out, and this has now been amended to show only Low and have combined both Medium/High into one category to specifically check for anything which may result in a burnout score which is not Low.  Additionally, by doing this, the data has been more evenly spread for machine learning use.
 
 ### Data Infrastructure and Tools
 
@@ -22,7 +22,7 @@ The data has been extracted in Excel format.  Python will be the main applicatio
 
 ### Data
 
-![DataType](assets/NO_NULL_DATA.png)
+![nonulldata](assets/NO NULL DATA.png)
 
 
 
