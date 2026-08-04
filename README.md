@@ -49,7 +49,7 @@ In total there were 150 User Id's within the data.
 
 ![users](assets/DISTINCT%USER%COUNT.png)
 
-Due to the distinct User Id's and to fully understand how Burnout is affecting the surveyed employees, a count of Users was applied for User Id’s who only work weekdays.  
+Due to the distinct User Id's and to fully understand how Burnout is affecting the surveyed employees, a count of Users was applied for User Id’s who only work weekdays.  In total only 7 users did not work on a weekend.
 
 ![noweekends](assets/NO%WEEKENDS.png)
 
@@ -57,12 +57,29 @@ In total there were zero users who only worked weekends which highlights that al
 
 ![weekendsonly](assets/WEEKENDS%ONLY.png)
 
+### DATA ANALYTICS
 
+Linear Regression is the model that was used in the data to try and highlight which fields directly affect the ‘Burnout Score’ ultimately providing the actual ‘Burnout Risk’.  The higher the score the higher the risk.
 
+Taking all numerical fields into account, the Linear model has provided a breakdown of the importance of each feature (field) against the Burnout Score.
 
+As shown below, sleep hours are the biggest contributor when based against the Burnout Score.  Although this is a negative correlation, this basically states that when a user has less sleep, there is more chance of the Burnout Score being much higher.
 
+Fatigue Score is the 2nd highest correlated contributor to the Burnout Score.  This is suggesting that a higher fatigue score is providing a higher Burnout Score.
 
+After Hours Work is also a large contributor to the Burnout Score confirming that more after hours that are worked will also provide higher Burnout Score.
 
+Although the other features do provide a coefficient value, these values are extremely low and do not have a major impact on the Burnout Score.
+
+![feature](assets/FEATURE%IMPORTANCE%FOR%BURNOUT.png)
+
+To ensure that the Sleep hours are a major contributor to the actual Burnout Score, the below screenshot clearly highlights the strong correlation confirming that the more hours slept decreases the chance of a higher Burnout Score.  As shown below, there are a few outliers in the data but based on the scenario in question, this can happen due to different people and circumstances.
+
+![sleep](assets/SLEEP%HOURS%BY%BURNOUT.png)
+
+To ensure the Linear Regression model is working effectively, the below screenshot, shows the actual Burnout Score values and the values predicted by the model.  It clearly highlights that although the model is interpreting the correlation between the different features, the model does not provide great predictive accuracy due to the deviations of the data varying away from the ‘perfect prediction line’.
+
+![predictedlinear](assets/PREDICTED%LINEAR%REGRESSION.png)
 
 
 
