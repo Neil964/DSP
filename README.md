@@ -37,8 +37,17 @@ No further cleansing needed to be applied to the data.
 
 The ‘burnout risk’ was initially split into ‘low’, ‘medium’ and ‘high’ categories.  With the project attempting to identify a potential risk of burnout, the data has been amended to merge both medium and high risk together, shown as 1 for ‘Low’ and 2 for ‘Medium/High’ and by doing so provides a more even split between the low risk and higher risk areas for modelling accuracy.
 
-![balance](assets/BALANCED%TEST%DATA%.png)
 
+![balance](assets/BALANCED%TEST%DATA.png)
+
+
+### DATA VISUALISATIONS:
+
+With a filter applied in Excel, it is easy to see that out of the 2000 rows of data, there appear to be multiple User Id's in the data, with which on varying days the same user can show a different burn out risk/score.
+
+In total there were 150 User Id's within the data.
+
+![users](assets/DISTINCT%USER%COUNT.png)
 
 
 
