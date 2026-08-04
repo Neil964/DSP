@@ -81,6 +81,11 @@ To ensure the Linear Regression model is working effectively, the below screensh
 
 ![predictedlinear](assets/PREDICTED%20LINEAR%20REGRESSION.png)
 
+A further test on the data took place using the Random Forest model to determine if the same features would be relevant in a different model.
+
+The Random Forest model correctly predicted 100% of the Low Risk and High-Risk outcomes.  This could mean that there is very little data available for any issues to occur, potentially there may be an issue with the model, the data is manufactured for reporting purposes only (which clearly goes against the initial data analysis) and further analysis may need to be applied or the model is working perfectly.
+
+
 
 
 
