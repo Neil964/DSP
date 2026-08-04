@@ -99,21 +99,14 @@ The Random Forest model determined that the ‘Fatigue Score’ was the standout
 
 ![predictedforest](assets/PREDICTED%20BY%20RANDOM%20FOREST.png)
 
+### CONCLUSION
+
+In conclusion it is clear to see that the Random Forest model provides a much better fit of the data and therefore would be the best model to be used going forward for predicting ‘Burnout Scores’, once further testing is done on the model due to its initial 100% predictions.
+
+Both models highlighted ‘Fatigue Score’ and ‘Sleep Hours’ as the biggest contributor to ‘burnout’ which is no real surprise and would expect this kind of result.  This is based on limited data and therefore if additional data was added like ‘role’, ‘number of children’, ‘overtime’, ‘starting time’ may make a considerable difference and potentially provide a different outcome.
+
+Overall, further testing on the models would need to take occur to ensure that all is working effectively.
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-![test](assets/TEST.png)
