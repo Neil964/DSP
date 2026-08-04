@@ -57,6 +57,10 @@ In total there were zero users who only worked weekends which highlights that al
 
 ![weekendsonly](assets/WEEKEND%20ONLY.png)
 
+The below provides a count of users and a count of the number of weekdays and weekends that the users provided in the data.  As it shows, the data is quite varied with a small selection of users working either 2 weekdays or at most 21 weekdays and also confirms the 7 users who did not work on weekend.
+
+![workingdays](assets/WEEKENDS%20PER%20USER.png)
+
 ### DATA ANALYTICS
 
 Linear Regression is the model that was used in the data to try and highlight which fields directly affect the ‘Burnout Score’ ultimately providing the actual ‘Burnout Risk’.  The higher the score the higher the risk.
@@ -85,9 +89,11 @@ A further test on the data took place using the Random Forest model to determine
 
 The Random Forest model correctly predicted 100% of the Low Risk and High-Risk outcomes.  This could mean that there is very little data available for any issues to occur, potentially there may be an issue with the model, the data is manufactured for reporting purposes only (which clearly goes against the initial data analysis) and further analysis may need to be applied or the model is working perfectly.
 
+![randomforest](assets/RANDOM%20FOREST%20MODEL.png)
 
+The Random Forest model determined that the ‘Fatigue Score’ was the standout feature that had the most effect on the ‘Burnout Score’, with ‘Sleep Hours’ a far second.  All other features were extremely low in the model.
 
-
+![predictedforest](assets/PREDICTED%20BY%20RANDOM%20FOREST.png)
 
 
 
