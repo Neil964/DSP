@@ -97,6 +97,10 @@ The Random Forest model correctly predicted 100% of the Low Risk and High-Risk o
 
 The Random Forest model determined that the ‘Fatigue Score’ was the standout feature that had the most effect on the ‘Burnout Score’, with ‘Sleep Hours’ a far second.  All other features were extremely low in the model.
 
+![randomforestcorrelation](assets/FEATURE%20IMPORTANCE%20FOR%20RANDOM%20FOREST.png)
+
+As expected, due to the 100% model predictions, the predictions from Random Forest model (C7) appear to be a much closer fit to the actual ‘Perfect Prediction Line’, making this a better model to determine the ‘Burnout Score’.  
+
 ![predictedforest](assets/PREDICTED%20BY%20RANDOM%20FOREST.png)
 
 ### CONCLUSION
