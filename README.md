@@ -38,7 +38,7 @@ No further cleansing needed to be applied to the data.
 The ‘burnout risk’ was initially split into ‘low’, ‘medium’ and ‘high’ categories.  With the project attempting to identify a potential risk of burnout, the data has been amended to merge both medium and high risk together, shown as 1 for ‘Low’ and 2 for ‘Medium/High’ and by doing so provides a more even split between the low risk and higher risk areas for modelling accuracy.
 
 
-![balance](assets/BALANCED%TEST%DATA.png)
+![balance](assets/BALANCED%20TEST%20DATA.png)
 
 
 ### DATA VISUALISATIONS:
@@ -47,15 +47,15 @@ With a filter applied in Excel, it is easy to see that out of the 2000 rows of d
 
 In total there were 150 User Id's within the data.
 
-![users](assets/DISTINCT%USER%COUNT.png)
+![users](assets/DISTINCT%20USER%20COUNT.png)
 
 Due to the distinct User Id's and to fully understand how Burnout is affecting the surveyed employees, a count of Users was applied for User Id’s who only work weekdays.  In total only 7 users did not work on a weekend.
 
-![noweekends](assets/NO%WEEKENDS.png)
+![noweekends](assets/NO%20WEEKENDS.png)
 
 In total there were zero users who only worked weekends which highlights that all users will only work weekdays.
 
-![weekendsonly](assets/WEEKENDS%ONLY.png)
+![weekendsonly](assets/WEEKEND%20ONLY.png)
 
 ### DATA ANALYTICS
 
@@ -71,15 +71,15 @@ After Hours Work is also a large contributor to the Burnout Score confirming tha
 
 Although the other features do provide a coefficient value, these values are extremely low and do not have a major impact on the Burnout Score.
 
-![feature](assets/FEATURE%IMPORTANCE%FOR%BURNOUT.png)
+![feature](assets/FEATURE%20IMPORTANCE%20FOR%20BURNOUT.png)
 
 To ensure that the Sleep hours are a major contributor to the actual Burnout Score, the below screenshot clearly highlights the strong correlation confirming that the more hours slept decreases the chance of a higher Burnout Score.  As shown below, there are a few outliers in the data but based on the scenario in question, this can happen due to different people and circumstances.
 
-![sleep](assets/SLEEP%HOURS%BY%BURNOUT.png)
+![sleep](assets/SLEEP%20HOURS%20BY%20BURNOUT.png)
 
 To ensure the Linear Regression model is working effectively, the below screenshot, shows the actual Burnout Score values and the values predicted by the model.  It clearly highlights that although the model is interpreting the correlation between the different features, the model does not provide great predictive accuracy due to the deviations of the data varying away from the ‘perfect prediction line’.
 
-![predictedlinear](assets/PREDICTED%LINEAR%REGRESSION.png)
+![predictedlinear](assets/PREDICTED%20LINEAR%20REGRESSION.png)
 
 
 
