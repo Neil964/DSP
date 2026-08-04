@@ -31,6 +31,15 @@ The data has been checked and cleansed for:
 
 ![datatypenulls](assets/NO%20NULL%20DATA.png)
 
+![duplicated](assets/DUPLICATED.png)
+
+No further cleansing needed to be applied to the data.
+
+The ‘burnout risk’ was initially split into ‘low’, ‘medium’ and ‘high’ categories.  With the project attempting to identify a potential risk of burnout, the data has been amended to merge both medium and high risk together, shown as 1 for ‘Low’ and 2 for ‘Medium/High’ and by doing so provides a more even split between the low risk and higher risk areas for modelling accuracy.
+
+![balance](assets/BALANCED%TEST%DATA%.png)
+
+
 
 
 
