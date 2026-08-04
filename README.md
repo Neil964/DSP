@@ -18,11 +18,18 @@ The dataset has 2000 rows of data which comprises of various aspects in a workin
 
 Nothing states that this is manufactured data.  The data does need to be checked and cleansed appropriately, checking for missing data and removing any duplications, null values etc.
 
-The data has been extracted in Excel format.  Python will be the main application to cleanse and apply relevant statistical analysis and visualisations and to apply linear regression.
+The ETL process is that the data has been extracted in Excel format and Python will be the main application to cleanse and apply relevant statistical analysis and visualisations and to apply linear regression.
 
-### Data
+### Data Engineering
 
-![test](assets/NO%20NULL%20DATA.png)
+The data has been checked and cleansed for:
+•	Null values – none found 
+•	Duplications – none found
+•	Correct Data Types none found 
+•	Possible Outliers – outliers found but based on the data these are minimal but relevant within the data
+
+
+![datatypenulls](assets/NO%20NULL%20DATA.png)
 
 
 
