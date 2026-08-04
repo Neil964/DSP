@@ -61,6 +61,10 @@ The below provides a count of users and a count of the number of weekdays and we
 
 ![workingdays](assets/WEEKENDS%20PER%20USER.png)
 
+With the data being split into 'Low' and 'Medium/High' being combined, the data clearly identifies that there is an issue with burnout with people who work weekends, but also identifies that a very large proportion of people who work weekdays are at risk of medium to high burnout.
+
+![burnout](assets/TEST.png)
+
 ### DATA ANALYTICS
 
 Linear Regression is the model that was used in the data to try and highlight which fields directly affect the ‘Burnout Score’ ultimately providing the actual ‘Burnout Risk’.  The higher the score the higher the risk.
