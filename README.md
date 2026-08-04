@@ -49,7 +49,13 @@ In total there were 150 User Id's within the data.
 
 ![users](assets/DISTINCT%USER%COUNT.png)
 
-Due to the distinct User Id's and to fully understand how Burnout is affecting the surveyed employees, a count of Users was applied for User Id’s who only work weekdays.  In total there were zero users who only worked weekends which highlights that all users will only work weekdays.
+Due to the distinct User Id's and to fully understand how Burnout is affecting the surveyed employees, a count of Users was applied for User Id’s who only work weekdays.  
+
+![noweekends](assets/NO%WEEKENDS.png)
+
+In total there were zero users who only worked weekends which highlights that all users will only work weekdays.
+
+![weekendsonly](assets/WEEKENDS%ONLY.png)
 
 
 
